@@ -26,11 +26,13 @@ SECRET_KEY = 'django-insecure-uu%mujl_sw5axans&rrbp)3k0#n49+s##($6^q#!8d%gnb!q7%
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'mi-proyecto-django-2025-399575986464.us-central1.run.app',
     '.run.app',  # Acepta cualquier dominio de Cloud Run
     'localhost',
     '127.0.0.1',
 ]
 CSRF_TRUSTED_ORIGINS = [
+    'https://mi-proyecto-django-2025-399575986464.us-central1.run.app',
     'https://*.run.app',  # Acepta cualquier dominio de Cloud Run con HTTPS
 ]
 
